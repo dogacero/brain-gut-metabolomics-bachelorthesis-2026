@@ -1,0 +1,228 @@
+Compound,Compound.Name,Putative.Chemical.Class,HMDB,KEGG
+HILIC-neg_Cluster_0032: 2-aminobutyric acid,2-aminobutyric acid,L-alpha-amino acids,HMDB0000452,C02356
+HILIC-pos_Cluster_0272: 3-methylhistidine,3-methylhistidine,Histidine and derivatives,HMDB0000479,C01152
+C18-neg_Cluster_0090: acetytyrosine,acetytyrosine,"Amino acids, peptides, and analogues",HMDB0000866,C01657
+HILIC-neg_Cluster_0034: alpha-hydroxybutyrate,alpha-hydroxybutyrate,NA,HMDB0000008,C05984
+HILIC-pos_Cluster_2052: bilirubin,bilirubin,NA,HMDB0000054,C00486
+HILIC-neg_Cluster_0013: butyrate / isobutytare*,butyrate / isobutytare*,Straight chain fatty acids,NA,NA
+HILIC-pos_Cluster_1374: C14 carnitine,C14 carnitine,Acyl carnitines,HMDB0005066,NA
+HILIC-pos_Cluster_1486: C16 carnitine,C16 carnitine,Acyl carnitines,HMDB0000222,C02990
+C8-pos_Cluster_1004: C16:0 ceramide (d18:1),C16:0 ceramide (d18:1),Sphingolipids,NA,NA
+HILIC-pos_Cluster_1593: C18 carnitine,C18 carnitine,Acyl carnitines,NA,NA
+HILIC-pos_Cluster_1586: C18:1 carnitine,C18:1 carnitine,Fatty acid esters,NA,NA
+HILIC-pos_Cluster_1580: C18:2 carnitine,C18:2 carnitine,Acyl carnitines,HMDB0006469,NA
+HILIC-pos_Cluster_0453: C2 carnitine,C2 carnitine,NA,HMDB0000201,C02571
+HILIC-pos_Cluster_1691: C20 carnitine,C20 carnitine,Acyl carnitines,NA,NA
+HILIC-pos_Cluster_1673: C20:4 carnitine,C20:4 carnitine,NA,NA,NA
+HILIC-pos_Cluster_0790: C3-DC-CH3 carnitine,C3-DC-CH3 carnitine,Acyl carnitines,NA,NA
+HILIC-pos_Cluster_0625: C4 carnitine,C4 carnitine,NA,NA,NA
+HILIC-pos_Cluster_0230: carnitine,carnitine,Quaternary ammonium salts,HMDB0000062,C00487
+C18-neg_Cluster_1292: chenodeoxycholate,chenodeoxycholate,"Bile acids, alcohols and derivatives",HMDB0000518,C02528
+C18-neg_Cluster_1045: chenodeoxycholate,chenodeoxycholate,"Bile acids, alcohols and derivatives",HMDB0000518,C02528
+C18-neg_Cluster_0832: chenodeoxycholate,chenodeoxycholate,"Bile acids, alcohols and derivatives",HMDB0000518,C02528
+C18-neg_Cluster_1060: chenodeoxycholate,chenodeoxycholate,"Bile acids, alcohols and derivatives",HMDB0000518,C02528
+C18-neg_Cluster_1129: chenodeoxycholate,chenodeoxycholate,"Bile acids, alcohols and derivatives",HMDB0000518,C02528
+HILIC-neg_Cluster_1360: chenodeoxycholate/deoxycholate*,chenodeoxycholate/deoxycholate*,"Bile acids, alcohols and derivatives",NA,NA
+C18-neg_Cluster_0930: cholate,cholate,"Bile acids, alcohols and derivatives",HMDB0000619,C00695
+C18-neg_Cluster_1258: cholate,cholate,"Bile acids, alcohols and derivatives",HMDB0000619,C00695
+C18-neg_Cluster_1372: cholate,cholate,"Bile acids, alcohols and derivatives",HMDB0000619,C00695
+HILIC-neg_Cluster_1403: cholate,cholate,"Bile acids, alcohols and derivatives",HMDB0000619,C00695
+C18-neg_Cluster_1178: cholate,cholate,"Bile acids, alcohols and derivatives",HMDB0000619,C00695
+C18-neg_Cluster_1273: cholate,cholate,"Bile acids, alcohols and derivatives",HMDB0000619,C00695
+C18-neg_Cluster_1621: cholate,cholate,"Bile acids, alcohols and derivatives",HMDB0000619,C00695
+C18-neg_Cluster_1722: cholate,cholate,"Bile acids, alcohols and derivatives",HMDB0000619,C00695
+C18-neg_Cluster_0833: deoxycholic acid,deoxycholic acid,"Bile acids, alcohols and derivatives",HMDB0000626,C04483
+HILIC-pos_Cluster_0657: geranyl acetoacetate*,geranyl acetoacetate*,Fatty alcohol esters,HMDB0038256,NA
+HILIC-pos_Cluster_0658: geranyl acetoacetate*,geranyl acetoacetate*,Fatty alcohol esters,HMDB0038256,NA
+HILIC-neg_Cluster_0166: glutamate,glutamate,Glutamic acid and derivatives,HMDB0000148,C00302
+HILIC-pos_Cluster_0160: glutamate,glutamate,"Amino acids, peptides, and analogues",HMDB0000148,C00302
+HILIC-neg_Cluster_0162: glutamine,glutamine,L-alpha-amino acids,HMDB0000641,C00064
+HILIC-pos_Cluster_0156: glutamine,glutamine,L-alpha-amino acids,HMDB0000641,C00064
+C18-neg_Cluster_1196: glycodeoxycholic acid,glycodeoxycholic acid,NA,HMDB0000631,C05464
+C18-neg_Cluster_1081: glycolithocholic acid,glycolithocholic acid,NA,HMDB0000698,C15557
+C18-neg_Cluster_1197: glycoursodeoxycholic acid,glycoursodeoxycholic acid,NA,HMDB0000708,NA
+HILIC-pos_Cluster_0033: histamine,histamine,NA,HMDB0000870,C00388
+HILIC-neg_Cluster_0201: histidine,histidine,"Amino acids, peptides, and analogues",HMDB0000177,C00135
+HILIC-pos_Cluster_0121: imidazole propionate,imidazole propionate,Azoles,HMDB0002271,C20522
+HILIC-pos_Cluster_0383: kynurenic acid,kynurenic acid,Quinolines and derivatives,HMDB0000715,C01717
+"HILIC-pos_Cluster_0521: L-1,2,3,4-tetrahydro-beta-carboline-3-carboxylic acid*","L-1,2,3,4-tetrahydro-beta-carboline-3-carboxylic acid*",Pyridoindoles,HMDB0035665,NA
+C18-neg_Cluster_0731: lithocholic acid,lithocholic acid,NA,HMDB0000761,C03990
+HILIC-neg_Cluster_0030: methylbutyric aid / valeric / isovaleric*,methylbutyric aid / valeric / isovaleric*,Methyl-branched fatty acids,NA,NA
+HILIC-neg_Cluster_0372: N-acetylglutamate,N-acetylglutamate,Glutamic acid and derivatives,HMDB0001138,C00624
+HILIC-pos_Cluster_0384: N-acetylglutamic acid,N-acetylglutamic acid,Glutamic acid and derivatives,HMDB0001138,C00624
+HILIC-pos_Cluster_0495: N-acetylglutamic acid,N-acetylglutamic acid,Glutamic acid and derivatives,HMDB0001138,C00624
+HILIC-pos_Cluster_0419: N-acetylhistidine,N-acetylhistidine,Histidine and derivatives,HMDB0032055,C02997
+C18-neg_Cluster_0019: p-hydroxyphenylacetate,p-hydroxyphenylacetate,Phenols,HMDB0000020,C00642
+HILIC-neg_Cluster_0125: phenylacetate,phenylacetate,NA,HMDB0000209,C07086
+HILIC-pos_Cluster_0248: phenylalanine,phenylalanine,Phenylalanine and derivatives,HMDB0000159,C00079
+HILIC-neg_Cluster_0242: phenylalanine,phenylalanine,Phenylpropanoic acids,HMDB0000159,C00079
+HILIC-pos_Cluster_1113: phytosphingosine,phytosphingosine,Organonitrogen compounds,HMDB0004610,C12144
+HILIC-neg_Cluster_0003: propionate,propionate,Carboxylic acids,HMDB0000237,C00163
+HILIC-pos_Cluster_0079: pyroglutamic acid,pyroglutamic acid,Alpha amino acids and derivatives,HMDB0000267,C01879
+C8-pos_Cluster_0123: sphingosine,sphingosine,Organonitrogen compounds,HMDB0000252,C00319
+C8-pos_Cluster_0166: sphingosine,sphingosine,Organonitrogen compounds,HMDB0000252,C00319
+C8-pos_Cluster_0988: sphingosine,sphingosine,Organonitrogen compounds,HMDB0000252,C00319
+C8-pos_Cluster_0253: sphingosine,sphingosine,Organonitrogen compounds,HMDB0000252,C00319
+C18-neg_Cluster_1574: taurochenodesoxycholic acid,taurochenodesoxycholic acid,"Bile acids, alcohols and derivatives",HMDB0000951,C05465
+C18-neg_Cluster_1575: taurodeoxycholic acid,taurodeoxycholic acid,NA,HMDB0000896,C05463
+C18-neg_Cluster_1465: taurolithocholic acid,taurolithocholic acid,NA,HMDB0000722,C02592
+HILIC-pos_Cluster_0998: threosphingosine,threosphingosine,NA,NA,NA
+HILIC-pos_Cluster_0906: threosphingosine,threosphingosine,NA,NA,NA
+HILIC-neg_Cluster_0452: tryptophan,tryptophan,Indoles and derivatives,HMDB0000929,C00078
+HILIC-pos_Cluster_0455: tryptophan,tryptophan,Indoles and derivatives,HMDB0000929,C00078
+HILIC-pos_Cluster_0333: tyrosine,tyrosine,"Amino acids, peptides, and analogues",HMDB0000158,C00082
+HILIC-neg_Cluster_0324: tyrosine,tyrosine,"Amino acids, peptides, and analogues",HMDB0000158,C00082
+C18-neg_Cluster_2021: urobilin,urobilin,Tetrapyrroles and derivatives,HMDB0004160,C05794
+HILIC-pos_Cluster_2093: urobilin*,urobilin*,Tetrapyrroles and derivatives,HMDB0004160,C05793
+HILIC-neg_Cluster_1435: NA,NA,"Trihydroxy bile acids, alcohols and derivatives",NA,NA
+HILIC-neg_Cluster_1446: NA,NA,Acyl carnitines,NA,NA
+HILIC-neg_Cluster_1555: NA,NA,"Tetrahydroxy bile acids, alcohols and derivatives",NA,NA
+HILIC-pos_Cluster_0214: NA,NA,Indoles and derivatives,NA,NA
+HILIC-pos_Cluster_0234: NA,NA,Indoles and derivatives,NA,NA
+HILIC-pos_Cluster_0388: NA,NA,Indoles and derivatives,NA,NA
+HILIC-pos_Cluster_0418: NA,NA,Tyrosine and derivatives,NA,NA
+HILIC-pos_Cluster_0486: NA,NA,Indoles and derivatives,NA,NA
+HILIC-pos_Cluster_0489: NA,NA,Indoles and derivatives,NA,NA
+C18-neg_Cluster_0121: NA,NA,Indoles and derivatives,NA,NA
+C18-neg_Cluster_1171: NA,NA,Acyl carnitines,NA,NA
+C18-neg_Cluster_1678: NA,NA,"Trihydroxy bile acids, alcohols and derivatives",NA,NA
+C18-neg_Cluster_0552: NA,NA,Acyl carnitines,NA,NA
+C18-neg_Cluster_1016: NA,NA,Acyl carnitines,NA,NA
+C18-neg_Cluster_1211: NA,NA,"Bile acids, alcohols and derivatives",NA,NA
+C18-neg_Cluster_1408: NA,NA,"Tetrahydroxy bile acids, alcohols and derivatives",NA,NA
+C18-neg_Cluster_1428: NA,NA,"Hydroxy bile acids, alcohols and derivatives",NA,NA
+C18-neg_Cluster_1461: NA,NA,"Tetrahydroxy bile acids, alcohols and derivatives",NA,NA
+C8-pos_Cluster_0726: NA,NA,"Dihydroxy bile acids, alcohols and derivatives",NA,NA
+HILIC-neg_Cluster_0447: NA,NA,Indoles and derivatives,NA,NA
+HILIC-neg_Cluster_0493: NA,NA,Tyrosine and derivatives,NA,NA
+HILIC-neg_Cluster_0636: NA,NA,Glutamine and derivatives,NA,NA
+HILIC-neg_Cluster_0644: NA,NA,Acyl carnitines,NA,NA
+HILIC-pos_Cluster_0618: NA,NA,Indoles and derivatives,NA,NA
+HILIC-pos_Cluster_0488: NA,NA,Indoles and derivatives,NA,NA
+HILIC-pos_Cluster_0725: NA,NA,Indoles and derivatives,NA,NA
+C18-neg_Cluster_1410: NA,NA,"Tetrahydroxy bile acids, alcohols and derivatives",NA,NA
+C18-neg_Cluster_1507: NA,NA,"Tetrahydroxy bile acids, alcohols and derivatives",NA,NA
+HILIC-pos_Cluster_1668: NA,NA,"Dihydroxy bile acids, alcohols and derivatives",NA,NA
+HILIC-pos_Cluster_1712: NA,NA,"Tetrahydroxy bile acids, alcohols and derivatives",NA,NA
+C18-neg_Cluster_1301: NA,NA,"Tetrahydroxy bile acids, alcohols and derivatives",NA,NA
+C18-neg_Cluster_1626: NA,NA,"Tetrahydroxy bile acids, alcohols and derivatives",NA,NA
+HILIC-pos_Cluster_1706: NA,NA,"Tetrahydroxy bile acids, alcohols and derivatives",NA,NA
+C18-neg_Cluster_0704: NA,NA,Acyl carnitines,NA,NA
+C8-pos_Cluster_0606: NA,NA,"Trihydroxy bile acids, alcohols and derivatives",NA,NA
+C8-pos_Cluster_1838: NA,NA,Phenylacetic acid derivatives,NA,NA
+HILIC-pos_Cluster_0643: NA,NA,Indoles and derivatives,NA,NA
+HILIC-pos_Cluster_0766: NA,NA,Acyl carnitines,NA,NA
+C18-neg_Cluster_0227: NA,NA,Phenylalanine and derivatives,NA,NA
+C18-neg_Cluster_0720: NA,NA,Indoles and derivatives,NA,NA
+C18-neg_Cluster_0990: NA,NA,"Trihydroxy bile acids, alcohols and derivatives",NA,NA
+C8-pos_Cluster_0724: NA,NA,"Dihydroxy bile acids, alcohols and derivatives",NA,NA
+HILIC-neg_Cluster_0958: NA,NA,Glutamine and derivatives,NA,NA
+HILIC-neg_Cluster_1434: NA,NA,"Trihydroxy bile acids, alcohols and derivatives",NA,NA
+HILIC-pos_Cluster_0484: NA,NA,Indoles and derivatives,NA,NA
+HILIC-pos_Cluster_1749: NA,NA,Acyl carnitines,NA,NA
+HILIC-pos_Cluster_1853: NA,NA,Acyl carnitines,NA,NA
+C18-neg_Cluster_0046: NA,NA,Indoles and derivatives,NA,NA
+C18-neg_Cluster_0120: NA,NA,Indoles and derivatives,NA,NA
+HILIC-pos_Cluster_0393: NA,NA,Indoles and derivatives,NA,NA
+C18-neg_Cluster_0108: NA,NA,Indoles and derivatives,NA,NA
+C18-neg_Cluster_0478: NA,NA,Acyl carnitines,NA,NA
+C18-neg_Cluster_0479: NA,NA,Acyl carnitines,NA,NA
+C18-neg_Cluster_0551: NA,NA,Acyl carnitines,NA,NA
+C18-neg_Cluster_0553: NA,NA,Acyl carnitines,NA,NA
+C18-neg_Cluster_0790: NA,NA,Acyl carnitines,NA,NA
+C18-neg_Cluster_0807: NA,NA,Tyrosine and derivatives,NA,NA
+C18-neg_Cluster_0949: NA,NA,Acyl carnitines,NA,NA
+C18-neg_Cluster_0993: NA,NA,Acyl carnitines,NA,NA
+C18-neg_Cluster_0994: NA,NA,Acyl carnitines,NA,NA
+C18-neg_Cluster_1180: NA,NA,"Dihydroxy bile acids, alcohols and derivatives",NA,NA
+HILIC-pos_Cluster_1747: NA,NA,Acyl carnitines,NA,NA
+C18-neg_Cluster_1487: NA,NA,Acyl carnitines,NA,NA
+HILIC-neg_Cluster_1608: NA,NA,"Tetrahydroxy bile acids, alcohols and derivatives",NA,NA
+C8-pos_Cluster_0336: NA,NA,Acyl carnitines,NA,NA
+C8-pos_Cluster_0655: NA,NA,"Bile acids, alcohols and derivatives",NA,NA
+C18-neg_Cluster_0054: NA,NA,Tyrosine and derivatives,NA,NA
+C18-neg_Cluster_0068: NA,NA,Indoles and derivatives,NA,NA
+C18-neg_Cluster_0284: NA,NA,Glutamine and derivatives,NA,NA
+C18-neg_Cluster_0285: NA,NA,Glutamine and derivatives,NA,NA
+C8-pos_Cluster_0429: NA,NA,Acyl carnitines,NA,NA
+C8-pos_Cluster_0544: NA,NA,"Bile acids, alcohols and derivatives",NA,NA
+C8-pos_Cluster_0607: NA,NA,"Trihydroxy bile acids, alcohols and derivatives",NA,NA
+C18-neg_Cluster_1209: NA,NA,"Tetrahydroxy bile acids, alcohols and derivatives",NA,NA
+C18-neg_Cluster_1210: NA,NA,"Tetrahydroxy bile acids, alcohols and derivatives",NA,NA
+C18-neg_Cluster_1270: NA,NA,"Bile acids, alcohols and derivatives",NA,NA
+C18-neg_Cluster_1272: NA,NA,"Bile acids, alcohols and derivatives",NA,NA
+C18-neg_Cluster_1300: NA,NA,"Tetrahydroxy bile acids, alcohols and derivatives",NA,NA
+C18-neg_Cluster_1409: NA,NA,"Tetrahydroxy bile acids, alcohols and derivatives",NA,NA
+C18-neg_Cluster_1419: NA,NA,"Pentahydroxy bile acids, alcohols and derivatives",NA,NA
+C18-neg_Cluster_1421: NA,NA,"Pentahydroxy bile acids, alcohols and derivatives",NA,NA
+C18-neg_Cluster_1429: NA,NA,"Hydroxy bile acids, alcohols and derivatives",NA,NA
+C18-neg_Cluster_1504: NA,NA,"Tetrahydroxy bile acids, alcohols and derivatives",NA,NA
+C18-neg_Cluster_1505: NA,NA,"Tetrahydroxy bile acids, alcohols and derivatives",NA,NA
+C18-neg_Cluster_1506: NA,NA,"Tetrahydroxy bile acids, alcohols and derivatives",NA,NA
+C18-neg_Cluster_1577: NA,NA,"Bile acids, alcohols and derivatives",NA,NA
+C8-pos_Cluster_2086: NA,NA,Phenylalanine and derivatives,NA,NA
+C8-pos_Cluster_0725: NA,NA,"Dihydroxy bile acids, alcohols and derivatives",NA,NA
+C8-pos_Cluster_0788: NA,NA,"Tetrahydroxy bile acids, alcohols and derivatives",NA,NA
+HILIC-neg_Cluster_0869: NA,NA,Glutamic acid and derivatives,NA,NA
+HILIC-neg_Cluster_0897: NA,NA,Glutamine and derivatives,NA,NA
+HILIC-neg_Cluster_1381: NA,NA,Acyl carnitines,NA,NA
+HILIC-neg_Cluster_1416: NA,NA,Acyl carnitines,NA,NA
+HILIC-neg_Cluster_1436: NA,NA,Acyl carnitines,NA,NA
+HILIC-neg_Cluster_1482: NA,NA,"Tetrahydroxy bile acids, alcohols and derivatives",NA,NA
+HILIC-neg_Cluster_1510: NA,NA,"Dihydroxy bile acids, alcohols and derivatives",NA,NA
+HILIC-neg_Cluster_1511: NA,NA,"Dihydroxy bile acids, alcohols and derivatives",NA,NA
+HILIC-neg_Cluster_1521: NA,NA,"Tetrahydroxy bile acids, alcohols and derivatives",NA,NA
+HILIC-neg_Cluster_0158: NA,NA,Indoles,NA,NA
+HILIC-neg_Cluster_0165: NA,NA,Glutamic acid and derivatives,NA,NA
+HILIC-neg_Cluster_0234: NA,NA,Indoles and derivatives,NA,NA
+HILIC-neg_Cluster_0243: NA,NA,Phenylalanine and derivatives,NA,NA
+HILIC-neg_Cluster_0258: NA,NA,2(hydroxyphenyl)acetic acids,NA,NA
+HILIC-neg_Cluster_0259: NA,NA,2(hydroxyphenyl)acetic acids,NA,NA
+HILIC-neg_Cluster_0289: NA,NA,Glutamine and derivatives,NA,NA
+HILIC-neg_Cluster_0370: NA,NA,Glutamic acid and derivatives,NA,NA
+HILIC-neg_Cluster_0381: NA,NA,Glutamine and derivatives,NA,NA
+HILIC-neg_Cluster_0486: NA,NA,Tyrosine and derivatives,NA,NA
+HILIC-neg_Cluster_0494: NA,NA,Tyrosine and derivatives,NA,NA
+HILIC-neg_Cluster_0495: NA,NA,Tyrosine and derivatives,NA,NA
+HILIC-neg_Cluster_0586: NA,NA,Tyrosine and derivatives,NA,NA
+HILIC-neg_Cluster_0637: NA,NA,Glutamine and derivatives,NA,NA
+HILIC-neg_Cluster_0710: NA,NA,Glutamine and derivatives,NA,NA
+HILIC-neg_Cluster_0805: NA,NA,Glutamic acid and derivatives,NA,NA
+HILIC-neg_Cluster_0854: NA,NA,Acyl carnitines,NA,NA
+HILIC-neg_Cluster_0855: NA,NA,Acyl carnitines,NA,NA
+HILIC-pos_Cluster_0692: NA,NA,Glutamine and derivatives,NA,NA
+HILIC-pos_Cluster_0693: NA,NA,Glutamine and derivatives,NA,NA
+HILIC-pos_Cluster_0856: NA,NA,Phenylalanine and derivatives,NA,NA
+HILIC-pos_Cluster_1181: NA,NA,Acyl carnitines,NA,NA
+HILIC-pos_Cluster_1254: NA,NA,Acyl carnitines,NA,NA
+HILIC-neg_Cluster_1539: NA,NA,"Bile acids, alcohols and derivatives",NA,NA
+HILIC-neg_Cluster_1554: NA,NA,"Tetrahydroxy bile acids, alcohols and derivatives",NA,NA
+HILIC-neg_Cluster_1607: NA,NA,"Tetrahydroxy bile acids, alcohols and derivatives",NA,NA
+HILIC-neg_Cluster_1609: NA,NA,"Tetrahydroxy bile acids, alcohols and derivatives",NA,NA
+HILIC-neg_Cluster_1614: NA,NA,"Pentahydroxy bile acids, alcohols and derivatives",NA,NA
+HILIC-neg_Cluster_1618: NA,NA,"Hydroxy bile acids, alcohols and derivatives",NA,NA
+HILIC-pos_Cluster_0145: NA,NA,Indoles,NA,NA
+HILIC-pos_Cluster_0146: NA,NA,Indoles,NA,NA
+HILIC-pos_Cluster_0166: NA,NA,Indoles and derivatives,NA,NA
+HILIC-pos_Cluster_0227: NA,NA,Indoles and derivatives,NA,NA
+HILIC-pos_Cluster_0235: NA,NA,Indoles and derivatives,NA,NA
+HILIC-pos_Cluster_0249: NA,NA,Phenylalanine and derivatives,NA,NA
+HILIC-pos_Cluster_0294: NA,NA,Glutamine and derivatives,NA,NA
+HILIC-pos_Cluster_0297: NA,NA,Indoles,NA,NA
+HILIC-pos_Cluster_0301: NA,NA,Indoles and derivatives,NA,NA
+HILIC-pos_Cluster_0387: NA,NA,Glutamine and derivatives,NA,NA
+HILIC-pos_Cluster_0440: NA,NA,Glutamine and derivatives,NA,NA
+HILIC-pos_Cluster_0441: NA,NA,Glutamine and derivatives,NA,NA
+HILIC-pos_Cluster_0451: NA,NA,Indoles and derivatives,NA,NA
+HILIC-pos_Cluster_0518: NA,NA,Acyl carnitines,NA,NA
+HILIC-pos_Cluster_0538: NA,NA,Indoles and derivatives,NA,NA
+HILIC-pos_Cluster_0544: NA,NA,Indoles and derivatives,NA,NA
+HILIC-pos_Cluster_0553: NA,NA,Indoles and derivatives,NA,NA
+HILIC-pos_Cluster_1438: NA,NA,Indoles and derivatives,NA,NA
+HILIC-pos_Cluster_1449: NA,NA,Indoles and derivatives,NA,NA
+HILIC-pos_Cluster_1491: NA,NA,"Dihydroxy bile acids, alcohols and derivatives",NA,NA
+HILIC-pos_Cluster_1492: NA,NA,"Dihydroxy bile acids, alcohols and derivatives",NA,NA
+HILIC-pos_Cluster_1581: NA,NA,Acyl carnitines,NA,NA
+HILIC-pos_Cluster_1669: NA,NA,"Dihydroxy bile acids, alcohols and derivatives",NA,NA
+HILIC-pos_Cluster_1725: NA,NA,"Bile acids, alcohols and derivatives",NA,NA
+HILIC-pos_Cluster_1876: NA,NA,Taurinated bile acids and derivatives,NA,NA

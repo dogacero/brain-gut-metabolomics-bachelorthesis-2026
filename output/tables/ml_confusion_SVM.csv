@@ -1,0 +1,10 @@
+Prediction,Reference,Freq
+CD,CD,10
+Control,CD,2
+UC,CD,5
+CD,Control,0
+Control,Control,11
+UC,Control,0
+CD,UC,1
+Control,UC,2
+UC,UC,12

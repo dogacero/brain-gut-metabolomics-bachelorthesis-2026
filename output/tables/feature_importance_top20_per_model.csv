@@ -1,0 +1,81 @@
+feature,importance_mean,model
+`d__Bacteria;p__Proteobacteria;c__Gammaproteobacteria;o__Enterobacterales;f__Succinivibrionaceae;g__HGM20899`,33.333333333333336,ElasticNet
+`d__Bacteria;p__Firmicutes_A;c__Clostridia;o__Christensenellales;f__CAG-74;g__RUG14130`,8.569323640491552,ElasticNet
+`d__Bacteria;p__Chloroflexota;c__Anaerolineae;o__Anaerolineales;f__Anaerolineaceae;g__T78`,5.2347080289011005,ElasticNet
+`d__Bacteria;p__Desulfobacterota_I;c__Desulfovibrionia;o__Desulfovibrionales;f__Desulfomicrobiaceae;g__UBA12183`,2.555232569238075,ElasticNet
+`d__Bacteria;p__Firmicutes_A;c__Clostridia;o__Lachnospirales;f__Lachnospiraceae;g__Limivivens`,0.9294476793929691,ElasticNet
+`d__Bacteria;p__Firmicutes_A;c__Clostridia;o__Lachnospirales;f__Lachnospiraceae;g__Choladousia`,0.8669974615836992,ElasticNet
+`d__Bacteria;p__Firmicutes_A;c__Clostridia;o__Lachnospirales;f__Lachnospiraceae;g__JAGTTR01`,0.4271276352179163,ElasticNet
+`C18-neg_Cluster_0380: NA`,0.035417469239865634,ElasticNet
+`HILIC-pos_Cluster_1689: NA`,0.027816929384784722,ElasticNet
+`C8-pos_Cluster_1450: NA`,0.017665045118116337,ElasticNet
+`C18-neg_Cluster_2109: NA`,0.01582554293584802,ElasticNet
+`HILIC-pos_Cluster_2090: NA`,0.01550180839689881,ElasticNet
+`HILIC-pos_Cluster_1884: NA`,0.015500805205461527,ElasticNet
+`C18-neg_Cluster_2129: NA`,0.013917722110917442,ElasticNet
+`HILIC-neg_Cluster_0479: NA`,0.013887035000672156,ElasticNet
+`HILIC-pos_Cluster_0155: NA`,0.013579835138919305,ElasticNet
+`C18-neg_Cluster_2083: NA`,0.012767283021936757,ElasticNet
+`HILIC-pos_Cluster_0242: NA`,0.011204731583102862,ElasticNet
+`HILIC-pos_Cluster_2135: NA`,0.009456778435195087,ElasticNet
+`C8-pos_Cluster_2438: NA`,0.009389606612309009,ElasticNet
+`d__Bacteria;p__Firmicutes_A;c__Clostridia;o__Oscillospirales;f__Ruminococcaceae;g__RGIG7389`,66.66666626507784,LogisticRegression
+`d__Bacteria;p__Spirochaetota;c__Leptospirae;o__Turneriellales;f__Turneriellaceae;g__Turneriella`,62.851860209815904,LogisticRegression
+`d__Bacteria;p__Cyanobacteria;c__Cyanobacteriia;o__Leptolyngbyales;f__Leptolyngbyaceae;g__Leptolyngbya`,58.759257214278826,LogisticRegression
+`d__Bacteria;p__Proteobacteria;c__Alphaproteobacteria;o__Caulobacterales;f__Parvularculaceae;g__Parvularcula`,58.03345942494054,LogisticRegression
+`d__Bacteria;p__Firmicutes_A;c__Clostridia;o__Tissierellales;f__Dethiosulfatibacteraceae;g__UBA8670`,57.56241987204036,LogisticRegression
+`d__Bacteria;p__Chloroflexota;c__Anaerolineae;o__Anaerolineales;f__EnvOPS12;g__UBA877`,57.11101554848908,LogisticRegression
+`d__Bacteria;p__Firmicutes;c__Bacilli;o__Bacillales;f__Bacillaceae_I;g__FJAT-45066`,56.221772180154346,LogisticRegression
+`d__Bacteria;p__Proteobacteria;c__Alphaproteobacteria;o__Caulobacterales;f__Hyphomonadaceae;g__Ponticaulis`,55.203196680126055,LogisticRegression
+`d__Bacteria;p__Proteobacteria;c__Alphaproteobacteria;o__Puniceispirillales;f__Puniceispirillaceae;g__UBA8309`,54.22642094631794,LogisticRegression
+`d__Bacteria;p__Firmicutes;c__Bacilli;o__Bacillales_H;f__Marinococcaceae;g__Alteribacillus`,52.97962063980559,LogisticRegression
+`d__Bacteria;p__Bacteroidota;c__Bacteroidia;o__Flavobacteriales;f__Crocinitomicaceae;g__Crocinitomix`,51.83068370769299,LogisticRegression
+`d__Bacteria;p__Bacteroidota;c__Bacteroidia;o__Flavobacteriales;f__Flavobacteriaceae;g__TMED96`,51.56682791290076,LogisticRegression
+`d__Bacteria;p__Desulfobacterota;c__Desulfobacteria;o__Desulfobacterales;f__Desulfococcaceae;g__Desulfonema`,51.01574385623073,LogisticRegression
+`d__Bacteria;p__Proteobacteria;c__Alphaproteobacteria;o__Rhizobiales_A;f__Rhizobiaceae_A;g__Ochrobactrum_A`,50.629702878697586,LogisticRegression
+`d__Bacteria;p__Bacteroidota;c__Kapabacteria;o__Kapabacteriales;f__UBA961;g__JADJXV01`,50.52912177460369,LogisticRegression
+`d__Bacteria;p__Firmicutes_C;c__Negativicutes;o__Selenomonadales;f__Selenomonadaceae;g__RUG11126`,49.83910294211444,LogisticRegression
+`d__Bacteria;p__Cyanobacteria;c__Cyanobacteriia;o__Cyanobacteriales;f__Microcoleaceae;g__Microcoleus`,49.73125717610632,LogisticRegression
+`d__Bacteria;p__Firmicutes_A;c__Clostridia;o__Tissierellales;f__Tepidimicrobiaceae;g__JAAYFE01`,49.58100113745421,LogisticRegression
+`d__Bacteria;p__Firmicutes_A;c__Clostridia;o__Lachnospirales;f__Lachnospiraceae;g__RGIG10340`,48.77266393372198,LogisticRegression
+`d__Bacteria;p__Firmicutes;c__Bacilli;o__Bacillales_F;f__Bacillaceae_M;g__Bacillus_BB`,48.03051101966725,LogisticRegression
+`d__Bacteria;p__Proteobacteria;c__Gammaproteobacteria;o__Enterobacterales;f__Succinivibrionaceae;g__HGM20899`,100,RandomForest
+`HILIC-neg_Cluster_0479: NA`,65.80613630952115,RandomForest
+`d__Bacteria;p__Firmicutes_A;c__Clostridia;o__Christensenellales;f__CAG-74;g__UBA11524`,31.262543795383564,RandomForest
+`d__Bacteria;p__Firmicutes_A;c__Clostridia;o__Lachnospirales;f__Lachnospiraceae;g__Limivivens`,25.181172346524978,RandomForest
+`C18-neg_Cluster_2083: NA`,15.925132970101775,RandomForest
+`HILIC-pos_Cluster_0412: NA`,11.243683436052132,RandomForest
+`HILIC-pos_Cluster_0972: NA`,10.95092742253243,RandomForest
+`HILIC-pos_Cluster_2135: NA`,9.963085263390344,RandomForest
+`C18-neg_Cluster_0063: NA`,9.945643094587384,RandomForest
+`C18-neg_Cluster_1766: NA`,9.658546417193884,RandomForest
+`HILIC-pos_Cluster_2090: NA`,8.566616270509732,RandomForest
+`HILIC-pos_Cluster_0155: NA`,8.131920275903106,RandomForest
+`HILIC-pos_Cluster_1090: NA`,6.997460540203042,RandomForest
+`d__Bacteria;p__Desulfobacterota_I;c__Desulfovibrionia;o__Desulfovibrionales;f__Desulfomicrobiaceae;g__UBA12183`,6.158964707584654,RandomForest
+`C18-neg_Cluster_0072: NA`,5.441409307200006,RandomForest
+`C18-neg_Cluster_1096: NA`,5.383725297778738,RandomForest
+`HILIC-pos_Cluster_2146: NA`,5.230053914217546,RandomForest
+`HILIC-neg_Cluster_0614: NA`,5.132250835387382,RandomForest
+`C18-neg_Cluster_2096: NA`,4.997853396303004,RandomForest
+`HILIC-pos_Cluster_0242: NA`,4.372839195871057,RandomForest
+HILIC-pos_Cluster_0155: NA,91.2184393922084,SVM
+HILIC-pos_Cluster_0242: NA,90.63559160668723,SVM
+d__Bacteria;p__Firmicutes_A;c__Clostridia;o__Christensenellales;f__CAG-74;g__Ventricola,87.24285007045204,SVM
+HILIC-pos_Cluster_2090: NA,87.06938573441488,SVM
+C18-neg_Cluster_2021: urobilin,86.17654899272632,SVM
+d__Bacteria;p__Firmicutes_A;c__Clostridia;o__Lachnospirales;f__Lachnospiraceae;g__Limivivens,85.43089988194525,SVM
+C18-neg_Cluster_2149: NA,85.08968353707301,SVM
+HILIC-pos_Cluster_2093: urobilin*,84.67744392398798,SVM
+C18-neg_Cluster_2037: NA,84.46513576297652,SVM
+d__Bacteria;p__Firmicutes_A;c__Clostridia;o__Lachnospirales;f__Lachnospiraceae;g__JAGTTR01,84.23968924940021,SVM
+HILIC-pos_Cluster_0276: NA,84.06374957157546,SVM
+C18-neg_Cluster_2096: NA,84.02014547393276,SVM
+C18-neg_Cluster_2083: NA,83.69720857610726,SVM
+HILIC-pos_Cluster_2091: NA,83.19909364408394,SVM
+C18-neg_Cluster_2109: NA,83.10027038348757,SVM
+d__Bacteria;p__Firmicutes_A;c__Clostridia;o__Christensenellales;f__CAG-74;g__UBA11524,82.98012110133669,SVM
+d__Bacteria;p__Firmicutes_A;c__Clostridia;o__Oscillospirales;f__Ruminococcaceae;g__Ruminiclostridium_E,82.45820480597129,SVM
+d__Bacteria;p__Firmicutes_A;c__Clostridia;o__Lachnospirales;f__Lachnospiraceae;g__Choladousia,82.45135001332878,SVM
+HILIC-pos_Cluster_2153: NA,82.2691267755817,SVM
+HILIC-pos_Cluster_0384: N-acetylglutamic acid,82.07585970524393,SVM

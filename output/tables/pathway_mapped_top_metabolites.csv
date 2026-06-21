@@ -1,0 +1,15 @@
+feature,importance_mean,model,HMDB,KEGG,High.Confidence.Annotation,Compound.Name,Retention.Time,m.z,Cluster..if.DA.,Putative.Chemical.Class,Adduct
+HILIC-pos_Cluster_0155: NA,91.2184393922084,SVM,NA,NA,TRUE,NA,4.417717,147.046952,2,Monothioacetals,NA
+HILIC-pos_Cluster_0242: NA,90.63559160668724,SVM,NA,NA,TRUE,NA,4.418035,165.057588,2,Pteridines and derivatives,NA
+HILIC-pos_Cluster_2090: NA,87.06938573441488,SVM,NA,NA,TRUE,NA,6.419995,595.318635,1,NA,NA
+C18-neg_Cluster_2021: urobilin,86.17654899272632,SVM,HMDB0004160,C05794,FALSE,urobilin,6.512715,593.334522,15,Tetrapyrroles and derivatives,[M-H]-
+C18-neg_Cluster_2149: NA,85.08968353707301,SVM,NA,NA,TRUE,NA,6.510296,629.308677,62,Terpene lactones,NA
+HILIC-pos_Cluster_2093: urobilin*,84.67744392398798,SVM,HMDB0004160,C05793,FALSE,urobilin*,6.422734,595.346201,15,Tetrapyrroles and derivatives,[M+H]+
+C18-neg_Cluster_2037: NA,84.46513576297652,SVM,NA,NA,TRUE,NA,6.513427,595.338157,62,Triterpenoids,NA
+HILIC-pos_Cluster_0276: NA,84.06374957157546,SVM,NA,NA,TRUE,NA,4.509523,172.059871,NA,Alpha amino acids and derivatives,NA
+C18-neg_Cluster_2096: NA,84.02014547393276,SVM,NA,NA,TRUE,NA,7.76058,611.344701,62,Steroid glucuronide conjugates,NA
+C18-neg_Cluster_2083: NA,83.69720857610726,SVM,NA,NA,TRUE,NA,7.94076,609.328523,62,Benzopyrans,NA
+HILIC-pos_Cluster_2091: NA,83.19909364408394,SVM,NA,NA,TRUE,NA,1.935026,595.344984,3,Diphenylmethanes,NA
+C18-neg_Cluster_2109: NA,83.10027038348757,SVM,NA,NA,TRUE,NA,9.199897,617.330994,62,Tetrapyrroles and derivatives,NA
+HILIC-pos_Cluster_2153: NA,82.2691267755817,SVM,NA,NA,TRUE,NA,6.423919,617.327898,62,Tetrapyrroles and derivatives,NA
+HILIC-pos_Cluster_0384: N-acetylglutamic acid,82.07585970524393,SVM,HMDB0001138,C00624,FALSE,N-acetylglutamic acid,4.5095,190.070536,6,Glutamic acid and derivatives,[M+H]+

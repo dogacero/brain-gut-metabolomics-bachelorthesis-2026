@@ -1,0 +1,23 @@
+# Raw and intermediate data (downloaded by 01_load_data.R)
+data/
+
+# Duplicate outputs from running scripts inside R/
+R/output/
+
+# renv package cache (use renv.lock + renv::restore())
+renv/library/
+
+# R / RStudio
+.Rhistory
+.RData
+.Rproj.user/
+*.Rproj
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+
+# Python caches (if any utility scripts are added later)
+__pycache__/
+*.pyc
