@@ -14,7 +14,8 @@ required_cran <- c(
   "dplyr",
   "tidyr",
   "stringr",
-  "tibble"
+  "tibble",
+  "kernlab"
 )
 
 install_if_missing <- function(pkgs) {

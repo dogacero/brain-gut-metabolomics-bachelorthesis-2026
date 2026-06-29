@@ -75,3 +75,5 @@ saveRDS(
 )
 
 message(sprintf("Saved merged object to: %s", output_rds))
+source("R/01_load_data.R")
+

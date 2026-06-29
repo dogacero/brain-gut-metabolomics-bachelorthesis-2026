@@ -7,6 +7,7 @@ suppressPackageStartupMessages({
   library(ggplot2)
   library(pheatmap)
   library(FactoMineR)
+  library(factoextra)
   library(tidyr)
 })
 
@@ -166,8 +167,6 @@ run_test <- function(feature_vec) {
 genus_p <- apply(genus_log, 2, run_test)
 met_p <- apply(met_log, 2, run_test)
 
-
-
 genus_res <- tibble(
   feature = names(genus_p),
   p_value = genus_p,
@@ -180,13 +179,89 @@ met_res <- tibble(
   p_adj = p.adjust(met_p, method = "fdr")
 ) %>% arrange(p_adj)
 
+
+#log2-Fold-Change (Effektstärke) gegenüber nonIBD
+
+# Gruppen-Vektor passend zur Zeilenreihenfolge der jeweiligen Matrix zuordnen
+grp_genus <- metadata[[group_col]][match(rownames(genus_matrix), metadata[[sample_col]])]
+grp_met   <- metadata[[group_col]][match(rownames(met_matrix),   metadata[[sample_col]])]
+
+# Funktion: log2FC einer Gruppe gegen nonIBD (Median-basiert)
+log2fc_vs_control <- function(mat, group, case, control = "nonIBD", pseudo) {
+  med_case    <- apply(mat[group == case,    , drop = FALSE], 2, median, na.rm = TRUE)
+  med_control <- apply(mat[group == control, , drop = FALSE], 2, median, na.rm = TRUE)
+  log2((med_case + pseudo) / (med_control + pseudo))
+}
+
+# Genus: relative Abundanzen -> kleiner Pseudocount
+lfc_genus_CD <- log2fc_vs_control(genus_matrix, grp_genus, "CD", pseudo = 1e-6)
+lfc_genus_UC <- log2fc_vs_control(genus_matrix, grp_genus, "UC", pseudo = 1e-6)
+
+genus_res <- genus_res %>%
+  mutate(
+    log2FC_CD_vs_nonIBD = lfc_genus_CD[feature],
+    log2FC_UC_vs_nonIBD = lfc_genus_UC[feature]
+  )
+
+# Metabolite: Intensitäten -> Pseudocount 1
+lfc_met_CD <- log2fc_vs_control(met_matrix, grp_met, case = "CD", control = "Control", pseudo = 1)
+lfc_met_UC <- log2fc_vs_control(met_matrix, grp_met, case = "UC", control = "Control", pseudo = 1)
+
+met_res <- met_res %>%
+  mutate(
+    log2FC_CD_vs_nonIBD = lfc_met_CD[feature],
+    log2FC_UC_vs_nonIBD = lfc_met_UC[feature]
+  )
+
+
+#Speichern (jetzt inkl. log2FC-Spalten)
+
 write_csv(genus_res, file.path(tab_dir, "eda_univariate_genus.csv"))
 write_csv(met_res, file.path(tab_dir, "eda_univariate_metabolites.csv"))
 
-message(sprintf("Signifikante Genera (FDR < 0.05): %d von %d", 
+message(sprintf("Signifikante Genera (FDR < 0.05): %d von %d",
                 sum(genus_res$p_adj < 0.05, na.rm = TRUE), nrow(genus_res)))
-message(sprintf("Signifikante Metabolite (FDR < 0.05): %d von %d", 
+message(sprintf("Signifikante Metabolite (FDR < 0.05): %d von %d",
                 sum(met_res$p_adj < 0.05, na.rm = TRUE), nrow(met_res)))
 
 head(genus_res, 10)
 head(met_res, 10)
+
+
+
+# 1) Stimmen die Gruppen-Labels?
+table(grp_met, useNA = "always")     # sollte CD / UC / nonIBD zeigen, keine reinen NAs
+
+# 2) Passen die Namen zusammen?
+head(names(lfc_met_CD))              # wie heißen die Einträge im FC-Vektor?
+head(met_res$feature)                # wie heißen sie in met_res?
+mean(met_res$feature %in% names(lfc_met_CD))   # wenn 0 -> Namens-Mismatch = Ursache
+
+
+# Beispiel-Feature: stimmen die Mediane wirklich überein?
+f <- "C18-neg_Cluster_2083: NA"
+tapply(met_matrix[, f], grp_met, median)   # Mediane je Gruppe CD / Control / UC
+
+
+# Funktion (falls noch nicht definiert)
+log2fc_vs_control <- function(mat, group, case, control, pseudo) {
+  med_case    <- apply(mat[group == case,    , drop = FALSE], 2, median, na.rm = TRUE)
+  med_control <- apply(mat[group == control, , drop = FALSE], 2, median, na.rm = TRUE)
+  log2((med_case + pseudo) / (med_control + pseudo))
+}
+
+# Gruppenvektor passend zu den Zeilen der Genus-Matrix
+grp_gen <- metadata$Study.Group[match(rownames(genus_matrix), metadata$Sample)]
+
+# kleiner Pseudocount fuer relative Abundanzen
+ps_gen <- 1e-6
+
+lfc_gen_CD <- log2fc_vs_control(genus_matrix, grp_gen, "CD", "Control", ps_gen)
+lfc_gen_UC <- log2fc_vs_control(genus_matrix, grp_gen, "UC", "Control", ps_gen)
+
+# an genus_res anhaengen (Zuordnung ueber den vollen Feature-Namen)
+genus_res$log2FC_CD_vs_nonIBD <- lfc_gen_CD[genus_res$feature]
+genus_res$log2FC_UC_vs_nonIBD <- lfc_gen_UC[genus_res$feature]
+
+head(genus_res, 10)
+
